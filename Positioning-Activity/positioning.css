@@ -1,0 +1,69 @@
+/* body properties */
+body{
+    background-color: #ffffff;
+    margin: 0;
+}
+
+/* document paragraph text properties */
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* H1 heading properties */
+h1{
+    color: #333333;
+    text-align: left;
+    margin-left: 220px;
+}
+
+/* first box .positionedFix is for the top left light grey box */
+.positionFixed{
+    position: fixed;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333333;
+    width: 20%;
+    height: 100px;
+    float:left;
+}
+
+/* first paragraph properties */
+.firstPara{
+    background-color: #ffffff;
+    text-align: left;
+    margin-left: 220px;
+    width:40%;
+}
+
+/* Second Box Properties with Relative Position */
+.positionRelative{
+    position: relative;
+    background-color: #f0f0f0;
+    text-align:center;
+    color: #333333;
+    width: 480px;
+    margin-left: 220px;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+/* Third Box Properties with a Absolute Position */
+.positionAbsolute{
+    position: absolute;
+    background-color: #9b9898;
+    text-align: center;
+    color: #333333;
+    padding: 5px;
+    height: 75px;
+    width: 250px;
+    margin-top: -83px;
+    margin-left: 480px;
+}
+
+/* Second Paragraph */
+.secondPara{
+    background-color: #fffff;
+    color: #333333;
+    margin-left: 220px;
+    width:40%;
+}

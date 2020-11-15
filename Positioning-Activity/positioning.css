@@ -20,7 +20,7 @@ h1{
 .positionFixed{
     position: fixed;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #eee;
     color: #333333;
     width: 20%;
     height: 100px;
@@ -38,7 +38,7 @@ h1{
 /* Second Box Properties with Relative Position */
 .positionRelative{
     position: relative;
-    background-color: #f0f0f0;
+    background-color: #eee;
     text-align:center;
     color: #333333;
     width: 480px;
@@ -50,7 +50,7 @@ h1{
 /* Third Box Properties with a Absolute Position */
 .positionAbsolute{
     position: absolute;
-    background-color: #9b9898;
+    background-color: #999;
     text-align: center;
     color: #333333;
     padding: 5px;
